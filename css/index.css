@@ -455,11 +455,13 @@ header .infoMobile .fas {
 .reviewsMobile .reviewImages .twoimages .image3 {
   margin-bottom: 8px;
 }
+.reviewsMobile .reviewImages .largest {
+  max-height: 400px;
+}
 .reviewsMobile .reviewImages img {
   width: 300px;
   margin: 0 10px;
   border-radius: 5px;
-  max-height: 400px;
 }
 @media (max-width: 699px) {
   .reviewMobileClick {
