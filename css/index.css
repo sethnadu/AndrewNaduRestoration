@@ -134,6 +134,11 @@ header .main-words {
   justify-content: space-between;
   width: 100%;
 }
+@media (max-width: 501px) {
+  header .main-words {
+    display: none;
+  }
+}
 header .main-words img {
   width: 150px;
   height: 150px;
@@ -161,21 +166,74 @@ header .main-words .title h1 {
   text-align: center;
   color: white;
 }
+@media (max-width: 950px) {
+  header .main-words .title h1 {
+    font-size: 2rem;
+  }
+}
 header .main-words .title h2 {
   font-size: 2.6rem;
   text-align: center;
   margin-bottom: 10px;
   color: white;
 }
+@media (max-width: 950px) {
+  header .main-words .title h2 {
+    font-size: 1.6rem;
+  }
+}
 header .info {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+@media (max-width: 501px) {
+  header .info {
+    display: none;
+  }
+}
 header .info .fas {
   color: white;
   font-size: 1.2rem;
   margin: 10px 30px;
+}
+header .mobileChange {
+  display: none;
+}
+@media (max-width: 500px) {
+  header .mobileChange {
+    display: flex;
+  }
+  header .mobileChange .title {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .mobileChange .title h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  header .mobileChange .title h2 {
+    font-size: 1.2rem;
+  }
+  header .mobileChange .title .links {
+    font-size: 1rem;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header .mobileChange .fas {
+    color: white;
+    display: flex;
+  }
+}
+@media (max-width: 500px) and (max-width: 500px) {
+  header .mobileChange img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
 }
 .main-section {
   display: flex;
