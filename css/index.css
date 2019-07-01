@@ -355,6 +355,7 @@ header .infoMobile .fas {
   border: 4px solid black;
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
+  background-color: black;
 }
 @media (max-width: 906px) {
   .main-section .reviews {
@@ -364,11 +365,13 @@ header .infoMobile .fas {
 .main-section .reviews img {
   width: 300px;
   margin: 10px auto;
+  border-radius: 5px;
 }
 .main-section .reviews h2 {
   font-size: 1.6rem;
   text-align: center;
   margin: 10px auto;
+  color: white;
 }
 .main-section .mainAbout .carousel {
   display: flex;
@@ -455,6 +458,7 @@ header .infoMobile .fas {
 .reviewsMobile .reviewImages img {
   width: 300px;
   margin: 0 10px;
+  border-radius: 5px;
 }
 @media (max-width: 699px) {
   .reviewMobileClick {
@@ -527,7 +531,7 @@ header .infoMobile .fas {
 @media (max-width: 699px) {
   .panel-content .panel-style {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
 }
@@ -536,6 +540,8 @@ header .infoMobile .fas {
     display: flex;
     justify-self: center;
     max-width: 400px;
+    margin: 10px;
+    border-radius: 5px;
   }
 }
 .showContent {
