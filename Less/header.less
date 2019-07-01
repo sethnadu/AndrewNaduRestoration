@@ -15,9 +15,14 @@ header {
       width: 150px;
       height: 150px;
       padding: 5px 30px 0 30px;
+
+      @media (max-width: 643px) {
+       width: 100px;
+       height: 100px;
+      }
     }
 
-    a {
+    .links {
       font-size: 1.2rem;
       text-decoration: none;
       color: black;
@@ -30,12 +35,86 @@ header {
       color: white;
       background-color: black;
 
+      @media (max-width: 951px) {
+        display: none;
+      }
+
       &:hover {
         background-color: white;
         color: black;
       }
     }
+    .tabletChange {
+      @media (max-width: 950px) {
+        display: flex;
+        align-content: center;
+      }
+      @media (min-width: 951px) {
+        display: none;
+      }
+
+      .titleTablet {
+        flex-direction: column;
+        text-align: center;
+        color: white;
+
+        h1 {
+          font-size: 2.4rem;
+
+          @media (max-width: 805px) {
+            font-size: 2rem;
+          }
+          @media (max-width: 643px) {
+            font-size: 1.6rem;
+          }
+        }
+
+        h2 {
+          font-size: 2rem;
+
+          @media (max-width: 805px) {
+            font-size: 1.6rem;
+          }
+          @media (max-width: 643px) {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      .linksTablet {
+        @media (min-width: 951px) {
+          display: none;
+        }
+        @media (max-width: 950px) {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+      }
+      a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        border: 2px solid white;
+        height: 30px;
+        margin-top: 10px; 
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+
+        @media (max-width: 805px) {
+          font-size: 1rem;
+          height: 25px;
+        }
+      }
+    }
     .title {
+      @media (max-width: 951px) {
+        display: none;
+      }
+
       h1 {
         font-size: 3rem;
         text-align: center;
@@ -67,56 +146,69 @@ header {
     @media (max-width: 501px) {
       display: none;
     }
+    
 
     .fas {
       color: white;
       font-size: 1.2rem;
       margin: 10px 30px;
+
+      @media (max-width: 800px) {
+        font-size: .9rem;
+       }
+       @media (max-width: 643px) {
+        font-size: .75rem;
+       }
     }
   }
 
   .mobileChange {
     display: none;
 
-    @media (max-width: 500px) {
+    @media (max-width: 501px) {
       display: flex;
-      
+      flex-direction: row;
+      justify-content: space-evenly;
 
       img {
-        @media (max-width: 500px) {
+        @media (max-width: 501px) {
           display: flex;
           width: 150px;
           height: 150px;
+          margin-top: 10px;
         }
       }
-      .title {
-        color: white;
+
+      a {
+        font-size: 1.2rem;
+        cursor: pointer;
         display: flex;
-        flex-direction: column;
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        background-color: black;
+        border-radius: 10px;
+        padding: 5px 10px;
+        width: 75px;
         justify-content: center;
-
-        h1 {
-          font-size: 1.6rem;
-          text-align: center;
-        }
-
-        h2 {
-          font-size: 1.2rem;
-        }
-
-        .links {
-          font-size: 1rem;
-          margin: 10px; 
-          display: flex;
-          justify-content: space-evenly;
-        }
-        
-      }
-      .fas {
-        color: white;
-        display: flex;
       }
     }
   }
 
+  .infoMobile {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media (min-width: 501px) {
+      display: none;
+    }
+
+    .fas {
+      padding: 10px 10px;
+      font-size: 0.75rem;
+    }
+  }
 }
