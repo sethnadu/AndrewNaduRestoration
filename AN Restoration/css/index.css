@@ -1,0 +1,199 @@
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+header {
+  border-bottom: 3px solid white;
+  background-color: black;
+}
+header .main-words {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+header .main-words img {
+  width: 150px;
+  height: 150px;
+  padding: 5px 30px 0 30px;
+}
+header .main-words a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 40px;
+  border: 2px solid white;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+header .main-words a:hover {
+  background-color: white;
+  color: black;
+}
+header .main-words .title h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+header .main-words .title h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+header .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .info .fas {
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px 30px;
+}
+.main-section {
+  display: flex;
+  flex-direction: row;
+}
+.main-section .carousel {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 20px auto;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+.main-section .carousel .carouselImage {
+  object-fit: cover;
+  width: 100%;
+}
+body {
+  font-size: 62.5%;
+}
