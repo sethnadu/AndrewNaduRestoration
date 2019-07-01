@@ -556,7 +556,7 @@ footer h2 {
 }
 @media (max-width: 560px) {
   footer h2 {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 footer .far {
@@ -564,10 +564,20 @@ footer .far {
   font-size: 1.4rem;
   margin: auto 10px;
 }
+@media (max-width: 560px) {
+  footer .far {
+    margin: auto 5px;
+  }
+}
 footer .fab {
   color: white;
   font-size: 1.4rem;
   margin: auto 10px;
+}
+@media (max-width: 560px) {
+  footer .fab {
+    margin: auto 5px;
+  }
 }
 footer .number {
   text-decoration: none;
@@ -577,7 +587,7 @@ footer .number {
 }
 @media (max-width: 560px) {
   footer .number {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 }
 body {
