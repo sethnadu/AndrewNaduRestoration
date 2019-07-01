@@ -356,9 +356,9 @@ header .infoMobile .fas {
   border: 4px solid black;
   border-radius: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .main-section .carousel {
-    margin: 20px 10px;
+    margin: 20px 20px;
   }
 }
 .main-section .carousel .carouselImage {
