@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
-    <link rel="icon"  type="image/png" href="./favicon.png">
+    <link rel="icon" type="image/png" href="./favicon.png" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
@@ -19,7 +19,7 @@
       <!-- MAIN NAV -->
       <div class="main-words">
         <img class="logoLeft" src="Assets/logo.jpg" />
-        <a class="links" href="#">About</a>
+        <a class="links" href="/index.html">Home</a>
         <div class="title">
           <h1>Andrew Nadu</h1>
           <h2>Restoration and Masonry</h2>
@@ -31,7 +31,7 @@
             <h1>Andrew Nadu</h1>
             <h2>Restoration and Masonry</h2>
             <div class="linksTablet">
-              <a href="#">About</a>
+              <a href="/index.html">Home</a>
               <a href="#">Projects</a>
             </div>
           </div>
@@ -60,18 +60,80 @@
     </header>
 
     <section class="main-section">
-      <div class="reviews"></div>
-
-      <div class="carousel">
-        <img class="carouselImage" src="./Assets/Main-Carousel/porch.jpg" />
-        <img
-          class="carouselImage"
-          src="./Assets/Main-Carousel/brick-path.jpg"
-        />
-        <img class="carouselImage" src="./Assets/Main-Carousel/kitchen.jpg" />
-        <img class="carouselImage" src="./Assets/Main-Carousel/beam.jpg" />
+      <div class="reviews">
+        <h2>What People Are Saying</h2>
+        <img src="Assets/reviews/review3.png" />
+        <img src="Assets/reviews/review2.png" />
+        <img src="Assets/reviews/review1.png" />
+      </div>
+      <div class="mainAbout">
+        <div class="carousel">
+          <img class="carouselImage" src="./Assets/Main-Carousel/porch.jpg" />
+          <img
+            class="carouselImage"
+            src="./Assets/Main-Carousel/brick-path.jpg"
+          />
+          <img class="carouselImage" src="./Assets/Main-Carousel/kitchen.jpg" />
+          <img class="carouselImage" src="./Assets/Main-Carousel/beam.jpg" />
+        </div>
+        <div class="aboutInfo">
+          <p>
+              All types of masonry work and remodeling including hardscapes and painting. We do full kitchen and bath remodelling aswell as any other restoration/ remodelling needs. Fully insured. My customers will vouch for my work as I strive for perfection.
+          </p>
+        </div>
       </div>
     </section>
+    
+
+    <!-- ReviewsMobile -->
+    <div class="reviewsMobile">
+      <h2>What People Are Saying</h2>
+      <div class = "reviewImages">
+          <img src="Assets/reviews/review1.png" />
+         <div class ="twoimages">
+          <img class = "image3" src="Assets/reviews/review3.png" />
+          <img src="Assets/reviews/review2.png" /> 
+        </div>
+      </div>
+      </div>
+
+    <!-- ReviewsMobile below 700px -->
+    <div class = "reviewMobileClick">
+      <div class = "panel-bar">
+          <h2>What People Are Saying</h2>
+          <div class="panel-buttons">
+              <img
+                class="button panel-button-open"
+                src="https://img.icons8.com/ios/32/000000/low-importance.png"
+              />
+              <img
+                class="button panel-button-close hide-button"
+                src="https://img.icons8.com/windows/32/000000/circled-chevron-up.png"
+              />
+            </div>
+      </div>
+      <div class = "panel-content">
+        <div class = "panel-style">
+            <img src="Assets/reviews/review3mobile.png" />
+            <img src="Assets/reviews/review1mobile.png" />
+            <img src="Assets/reviews/review2mobile.png" /> 
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <h2>Andrew Nadu: Restoration and Masonry</h2>
+      <a href="https://www.facebook.com/AndrewNaduRestorations/"
+        ><i class="fab fa-facebook-square"></i>
+      <a href="mailto:andrewnadurestoration@gmail.com"
+        ><i class="far fa-envelope"></i></a>
+      <a class ="number" href="tel:7173819912">(717) 381-9912</a>
+    </footer>
+
+    <!-- Scipts -->
     <script src="./JavaScript/carousel.js"></script>
+    <script src="./JavaScript/reviewMobile.js"></script>
   </body>
 </html>

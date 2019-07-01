@@ -1,29 +1,209 @@
-
-
 .main-section {
   display: flex;
   flex-direction: row;
 
   .reviews {
-  }
-
-  .carousel {
     display: flex;
-    justify-content: center;
-    overflow: hidden;
-    max-width: 900px;
-    margin: 20px auto;
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 10px;
     border: 4px solid black;
     border-radius: 10px;
-    
+    box-shadow: 5px 5px 5px;
 
-    @media (max-width: 900px) {
-      margin: 20px 20px;
+    @media (max-width: 906px) {
+      display: none;
+    }
+    img {
+      width: 300px;
+      margin: 10px auto;
     }
 
-    .carouselImage {
-      object-fit: cover;
-      width: 100%;
+    h2 {
+      font-size: 1.6rem;
+      text-align: center;
+      margin: 10px auto;
     }
   }
+  .mainAbout {
+    .carousel {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      max-width: 900px;
+      max-height: 500px;
+      margin: 20px auto;
+      border: 4px solid black;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px;
+
+      @media (max-width: 900px) {
+        margin: 20px 20px;
+      }
+
+      .carouselImage {
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+    .aboutInfo {
+      padding: 10px;
+      margin: 20px 20px;
+      font-size: 1.4rem;
+      border: 4px solid black;
+      color: white;
+      background-color: black;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px black;
+
+      @media (max-width: 699px) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.reviewsMobile {
+  @media (max-width: 904px) and (min-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    height: 100%;
+    margin: auto 20px 20px 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 5px 5px 10px black;
+  }
+  @media (min-width: 905px) {
+    display: none;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: white;
+
+    @media (max-width: 700px) {
+      display: none;
+    }
+  }
+  .reviewImages {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+
+    @media (max-width: 700px) {
+      display: none;
+    }
+
+    .twoimages {
+      display: flex;
+      flex-direction: column;
+      max-width: 320px;
+
+      .image3 {
+        margin-bottom: 8px;
+      }
+    }
+
+    img {
+      width: 300px;
+      margin: 0 10px;
+    }
+  }
+}
+
+.reviewMobileClick {
+  @media (max-width: 699px)  {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    height: 100%;
+    margin: auto 20px 20px 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 5px 5px 10px black;
+    }
+    @media (min-width: 700px) {
+      display: none;
+    }
+
+  
+.panel-bar {
+  @media (max-width: 699px) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 0 10px 0;
+  }
+  @media (min-width: 700px) {
+    display: none;
+  }
+
+  h2 {
+    @media (min-width: 700px) {
+      display: none;
+    }
+    @media (max-width: 699px) {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    }
+    
+    }
+  
+}
+
+  .panel-buttons {
+    @media (max-width: 699px) {
+    display: flex;
+    @media (min-width: 700px) {
+      display: none;
+    }
+    
+    
+    
+
+    .button {
+      @media (min-width: 700px) {
+        display: none;
+      }
+      cursor: pointer;
+      background-color: white;
+      border-radius: 50%;
+    }
+    .hide-button {
+      display: none;
+    }
+  }
+}
+}
+
+
+.panel-content {
+  display: none;
+
+  .panel-style {
+    @media (max-width: 699px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+    img {
+      @media (max-width: 699px) {
+      display: flex;
+      justify-self: center;
+      max-width: 400px;
+     
+    }
+  }
+  
+}
+}
+
+.showContent {
+  display: block;
+  
 }
