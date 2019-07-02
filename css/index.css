@@ -404,6 +404,7 @@ header .infoMobile .fas {
   width: 400px;
   margin: 0 10px;
   border-radius: 5px;
+  object-fit: cover;
 }
 .reviewsMobile .reviewImages4 {
   display: flex;
@@ -419,6 +420,7 @@ header .infoMobile .fas {
   width: 400px;
   margin: 0 10px;
   border-radius: 5px;
+  object-fit: cover;
 }
 .reviewsMobile .reviewImages5 {
   display: flex;
@@ -434,6 +436,7 @@ header .infoMobile .fas {
   width: 400px;
   margin: 0 10px;
   border-radius: 5px;
+  object-fit: cover;
 }
 @media (max-width: 699px) {
   .reviewMobileClick {
