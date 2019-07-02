@@ -500,11 +500,11 @@ header .infoMobile .fas {
     display: none;
   }
 }
-.panel-content {
+.reviewMobileClick .panel-content {
   display: none;
 }
 @media (max-width: 699px) {
-  .panel-content .panel-style {
+  .reviewMobileClick .panel-content .panel-style {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -512,7 +512,7 @@ header .infoMobile .fas {
   }
 }
 @media (max-width: 699px) {
-  .panel-content .panel-style img {
+  .reviewMobileClick .panel-content .panel-style img {
     display: flex;
     justify-self: center;
     max-width: 350px;
@@ -522,6 +522,123 @@ header .infoMobile .fas {
 }
 .showContent {
   display: block;
+}
+.contactSection {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 700px) {
+  .contactSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.contactSection .contactForm {
+  border: 2px solid ivory;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+@media (max-width: 700px) {
+  .contactSection .contactForm {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .contactSection .contactForm {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+  }
+}
+.contactSection .contactForm h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+}
+.contactSection .contactForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactSection .contactForm form input {
+  width: 50%;
+  margin-bottom: 10px;
+}
+.contactSection .contactForm form textarea {
+  width: 50%;
+  height: 100px;
+}
+.contactSection .contactForm form button {
+  margin-top: 5px;
+  cursor: pointer;
+  color: ivory;
+  border: 2px solid ivory;
+  background-color: black;
+  border-radius: 10px;
+}
+.contactSection .contactForm form button:hover {
+  background-color: ivory;
+  border: 2px solid black;
+  color: black;
+}
+.contactSection .contactInfo {
+  border: 4px solid ivory;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding: 0px 0 20px 0;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+@media (max-width: 700px) {
+  .contactSection .contactInfo {
+    margin-bottom: 10px;
+    width: 60%;
+  }
+}
+@media (max-width: 500px) {
+  .contactSection .contactInfo {
+    margin-bottom: 10px;
+    width: 90%;
+  }
+}
+.contactSection .contactInfo a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: white;
+}
+.contactSection .contactInfo a .fab {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  color: #4267b2;
+}
+.contactSection .contactInfo a .fab:hover {
+  color: ivory;
+}
+.contactSection .contactInfo h3 {
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+  text-decoration: underline white;
+  color: white;
+}
+.contactSection .contactInfo h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+  padding-bottom: 10px;
+  color: white;
 }
 footer {
   display: flex;
