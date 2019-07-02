@@ -97,8 +97,8 @@ class InteriorCarousel2 {
          if(this.currentIndex < 0) {
              this.currentIndex = 12;
          }
-         if(this.currentIndex > 3) {
-             this.currentIndex = 12;
+         if(this.currentIndex > 12) {
+             this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
      

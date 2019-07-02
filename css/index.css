@@ -763,7 +763,7 @@ footer .number {
 }
 @media (max-width: 500px) {
   .tabs .topics .tab {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 .tabs .topics .tab:hover {
@@ -835,7 +835,6 @@ footer .number {
   align-items: none;
   flex-direction: row;
   color: ivory;
-  background-color: black;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
@@ -885,7 +884,6 @@ footer .number {
   align-items: none;
   flex-direction: row;
   color: ivory;
-  background-color: black;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
