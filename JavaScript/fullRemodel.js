@@ -40,9 +40,9 @@ class FullRemodelBefore {
          image.style.display = "none"});
          this.currentIndex +=1;
          if(this.currentIndex < 0) {
-             this.currentIndex = 12;
+             this.currentIndex = 6;
          }
-         if(this.currentIndex > 12) {
+         if(this.currentIndex > 6) {
              this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
@@ -79,9 +79,9 @@ class InteriorCarousel2 {
          image.style.display = "none"});
          this.currentIndex -=1;
          if (this.currentIndex < 0) {
-             this.currentIndex = 3;
+             this.currentIndex = 12;
          }
-         if(this.currentIndex > 3) {
+         if(this.currentIndex > 12) {
              this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
@@ -95,10 +95,10 @@ class InteriorCarousel2 {
          image.style.display = "none"});
          this.currentIndex +=1;
          if(this.currentIndex < 0) {
-             this.currentIndex = 3;
+             this.currentIndex = 12;
          }
          if(this.currentIndex > 3) {
-             this.currentIndex = 0;
+             this.currentIndex = 12;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
      
