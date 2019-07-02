@@ -307,7 +307,7 @@ header .infoMobile .fas {
   flex-direction: column;
   margin: 20px 10px;
   padding: 10px;
-  border: 4px solid black;
+  border: 4px solid ivory;
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
   background-color: black;
@@ -352,6 +352,7 @@ header .infoMobile .fas {
   padding: 10px;
   margin: 20px 20px;
   font-size: 1.4rem;
+  max-width: 900px;
   color: black;
 }
 @media (max-width: 699px) {
