@@ -29,7 +29,7 @@ class Review {
     }
 
     timerStart1() {
-        setTimeout(() => this.changeImage1(this.currentIndex1), 1000);
+        setTimeout(() => this.changeImage1(this.currentIndex1), 5000);
     }
 }
 
@@ -70,7 +70,7 @@ class ReviewOne {
     }
 
     timerStart2() {
-        setTimeout(() => this.changeImage2(this.currentIndex2), 1000);
+        setTimeout(() => this.changeImage2(this.currentIndex2), 5000);
     }
 }
 
@@ -109,7 +109,7 @@ class ReviewTwo {
     }
 
     timerStart3() {
-        setTimeout(() => this.changeImage3(this.currentIndex3), 1000);
+        setTimeout(() => this.changeImage3(this.currentIndex3), 5000);
     }
 }
 
@@ -144,7 +144,7 @@ class ReviewThree {
     }
 
     timerStart4() {
-        setTimeout(() => this.changeImage4(this.currentIndex4), 1000);
+        setTimeout(() => this.changeImage4(this.currentIndex4), 5000);
     }
 }
 
@@ -181,7 +181,7 @@ class ReviewFour {
     }
 
     timerStart5() {
-        setTimeout(() => this.changeImage5(this.currentIndex5), 1000);
+        setTimeout(() => this.changeImage5(this.currentIndex5), 5000);
     }
 }
 
@@ -218,7 +218,7 @@ class ReviewFive {
     }
 
     timerStart6() {
-        setTimeout(() => this.changeImage6(this.currentIndex6), 1000);
+        setTimeout(() => this.changeImage6(this.currentIndex6), 5000);
     }
 }
 
@@ -256,7 +256,7 @@ class ReviewSix {
     }
 
     timerStart7() {
-        setTimeout(() => this.changeImage7(this.currentIndex7), 1000);
+        setTimeout(() => this.changeImage7(this.currentIndex7), 5000);
     }
 }
 
@@ -293,7 +293,7 @@ class ReviewSeven {
     }
 
     timerStart8() {
-        setTimeout(() => this.changeImage8(this.currentIndex8), 1000);
+        setTimeout(() => this.changeImage8(this.currentIndex8), 5000);
     }
 }
 
@@ -330,7 +330,7 @@ class ReviewEight {
     }
 
     timerStart9() {
-        setTimeout(() => this.changeImage9(this.currentIndex9), 1000);
+        setTimeout(() => this.changeImage9(this.currentIndex9), 5000);
     }
 }
 
