@@ -500,11 +500,11 @@ header .infoMobile .fas {
     display: none;
   }
 }
-.reviewMobileClick .panel-content {
+.panel-content {
   display: none;
 }
 @media (max-width: 699px) {
-  .reviewMobileClick .panel-content .panel-style {
+  .panel-content .panel-style {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -512,7 +512,7 @@ header .infoMobile .fas {
   }
 }
 @media (max-width: 699px) {
-  .reviewMobileClick .panel-content .panel-style img {
+  .panel-content .panel-style img {
     display: flex;
     justify-self: center;
     max-width: 350px;
