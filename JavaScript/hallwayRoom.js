@@ -1,11 +1,11 @@
-// Full Remodel Before
+// HallwayRoom Before
 
-class FullRemodelBefore {
+class HallwayRoomBefore {
     constructor(element) {
      this.element = element;
-     this.leftButton = document.querySelector(".left-button");
-     this.rightButton = document.querySelector(".right-button");
-     this.imgCarousel = document.querySelectorAll(".imgSlideShow1");
+     this.leftButton = document.querySelector(".left-button3");
+     this.rightButton = document.querySelector(".right-button3");
+     this.imgCarousel = document.querySelectorAll(".imgSlideShow3");
      this.currentIndex = 0;
      this.currentImg = this.imgCarousel[this.currentIndex];
      this.currentImg.style.display = "block";
@@ -19,14 +19,14 @@ class FullRemodelBefore {
     }
 
  previous() {
-     const images = document.querySelectorAll('.imgSlideShow1');
+     const images = document.querySelectorAll('.imgSlideShow3');
      images.forEach((image) => {
          image.style.display = "none"});
          this.currentIndex -=1;
          if (this.currentIndex < 0) {
-             this.currentIndex = 6;
+             this.currentIndex = 4;
          }
-         if(this.currentIndex > 6) {
+         if(this.currentIndex > 4) {
              this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
@@ -35,14 +35,14 @@ class FullRemodelBefore {
  };
 
  next() {
-     const images = document.querySelectorAll('.imgSlideShow1');
+     const images = document.querySelectorAll('.imgSlideShow3');
      images.forEach((image) => {
          image.style.display = "none"});
          this.currentIndex +=1;
          if(this.currentIndex < 0) {
-             this.currentIndex = 6;
+             this.currentIndex = 3;
          }
-         if(this.currentIndex > 6) {
+         if(this.currentIndex > 3) {
              this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
@@ -51,16 +51,16 @@ class FullRemodelBefore {
 
 }
 
-let fullRemodelBefore = document.querySelectorAll('.slideshow').forEach(img => new FullRemodelBefore(img));
+let hallwayRoomBefore = document.querySelectorAll('.slideshow3').forEach(img => new HallwayRoomBefore(img));
 
-// Full Remodel After
+// HallwayRoom After
 
-class InteriorCarousel2 {
+class HallwayRoomAfter {
     constructor(element) {
      this.element = element;
-     this.leftButton = document.querySelector(".left-button2");
-     this.rightButton = document.querySelector(".right-button2");
-     this.imgCarousel = document.querySelectorAll(".imgSlideShow2");
+     this.leftButton = document.querySelector(".left-button4");
+     this.rightButton = document.querySelector(".right-button4");
+     this.imgCarousel = document.querySelectorAll(".imgSlideShow4");
      this.currentIndex = 0;
      this.currentImg = this.imgCarousel[this.currentIndex];
      this.currentImg.style.display = "block";
@@ -74,14 +74,14 @@ class InteriorCarousel2 {
     }
 
  previous() {
-     const images = document.querySelectorAll('.imgSlideShow2');
+     const images = document.querySelectorAll('.imgSlideShow4');
      images.forEach((image) => {
          image.style.display = "none"});
          this.currentIndex -=1;
          if (this.currentIndex < 0) {
-             this.currentIndex = 17;
+             this.currentIndex = 15;
          }
-         if(this.currentIndex > 17) {
+         if(this.currentIndex > 15) {
              this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
@@ -90,14 +90,14 @@ class InteriorCarousel2 {
  };
 
  next() {
-     const images = document.querySelectorAll('.imgSlideShow2');
+     const images = document.querySelectorAll('.imgSlideShow4');
      images.forEach((image) => {
          image.style.display = "none"});
          this.currentIndex +=1;
          if(this.currentIndex < 0) {
-             this.currentIndex = 17;
+             this.currentIndex = 15;
          }
-         if(this.currentIndex > 17) {
+         if(this.currentIndex > 15) {
              this.currentIndex = 0;
          }
          this.imgCarousel[this.currentIndex].style.display = "block";
@@ -106,4 +106,4 @@ class InteriorCarousel2 {
 
 }
 
-let interiorCarousel2 = document.querySelectorAll('.slideshow2').forEach(img => new InteriorCarousel2(img));
+let hallwayRoomAfter = document.querySelectorAll('.slideshow4').forEach(img => new HallwayRoomAfter(img));
