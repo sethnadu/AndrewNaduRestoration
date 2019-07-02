@@ -126,7 +126,7 @@ a img {
 }
 header {
   border-bottom: 4px solid black;
-  background-color: seashell;
+  background-color: ivory;
 }
 header .main-words {
   display: flex;
@@ -577,5 +577,5 @@ footer .number {
 body {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
-  background-color: seashell;
+  background-color: ivory;
 }
