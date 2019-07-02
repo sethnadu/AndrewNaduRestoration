@@ -733,6 +733,11 @@ footer .number {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .tabs {
+    height: 160px;
+  }
+}
 .tabs .title {
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -745,6 +750,14 @@ footer .number {
   justify-content: none;
   align-items: center;
   flex-direction: row;
+}
+@media (max-width: 500px) {
+  .tabs .topics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 .tabs .topics .tab {
   display: flex;
@@ -763,7 +776,9 @@ footer .number {
 }
 @media (max-width: 500px) {
   .tabs .topics .tab {
-    font-size: 0.6rem;
+    margin: 5px;
+    width: 100px;
+    justify-content: center;
   }
 }
 .tabs .topics .tab:hover {

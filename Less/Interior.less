@@ -10,6 +10,12 @@
     height: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    @media (max-width: 500px) {
+      height: 160px;
+
+    }
+
    
     .title {
         font-size: 1.2rem;
@@ -20,6 +26,11 @@
       }
     .topics {
       .flex(none, center);
+
+      @media (max-width: 500px) {
+        .flex(center, center, column);
+
+      }
       
       .tab {
         .flex(none, center);
@@ -34,7 +45,9 @@
         border-radius: 10px;
 
         @media (max-width: 500px) {
-            font-size: .6rem; 
+            margin: 5px;
+            width: 100px;
+            justify-content: center;
         }
         &:hover {
           text-decoration: underline;
