@@ -526,18 +526,18 @@ header .infoMobile .fas {
 .showContent {
   display: block;
 }
-.contactSection {
+#contactSection {
   margin: 30px auto;
   display: flex;
   flex-direction: row;
 }
 @media (max-width: 700px) {
-  .contactSection {
+  #contactSection {
     flex-direction: column;
     align-items: center;
   }
 }
-.contactSection .contactForm {
+#contactSection .contactForm {
   border: 2px solid ivory;
   width: 48%;
   margin-left: 1%;
@@ -547,38 +547,38 @@ header .infoMobile .fas {
   box-shadow: 5px 5px 10px;
 }
 @media (max-width: 700px) {
-  .contactSection .contactForm {
+  #contactSection .contactForm {
     margin-top: 10px;
     padding-bottom: 10px;
     width: 60%;
   }
 }
 @media (max-width: 500px) {
-  .contactSection .contactForm {
+  #contactSection .contactForm {
     margin-top: 10px;
     padding-bottom: 10px;
     width: 90%;
   }
 }
-.contactSection .contactForm h2 {
+#contactSection .contactForm h2 {
   text-align: center;
   font-size: 1.6rem;
   color: white;
 }
-.contactSection .contactForm form {
+#contactSection .contactForm form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.contactSection .contactForm form input {
+#contactSection .contactForm form input {
   width: 50%;
   margin-bottom: 10px;
 }
-.contactSection .contactForm form textarea {
+#contactSection .contactForm form textarea {
   width: 50%;
   height: 100px;
 }
-.contactSection .contactForm form button {
+#contactSection .contactForm form button {
   margin-top: 5px;
   cursor: pointer;
   color: ivory;
@@ -586,12 +586,12 @@ header .infoMobile .fas {
   background-color: black;
   border-radius: 10px;
 }
-.contactSection .contactForm form button:hover {
+#contactSection .contactForm form button:hover {
   background-color: ivory;
   border: 2px solid black;
   color: black;
 }
-.contactSection .contactInfo {
+#contactSection .contactInfo {
   border: 4px solid ivory;
   width: 48%;
   display: flex;
@@ -605,39 +605,39 @@ header .infoMobile .fas {
   box-shadow: 5px 5px 10px;
 }
 @media (max-width: 700px) {
-  .contactSection .contactInfo {
+  #contactSection .contactInfo {
     margin-bottom: 10px;
     width: 60%;
   }
 }
 @media (max-width: 500px) {
-  .contactSection .contactInfo {
+  #contactSection .contactInfo {
     margin-bottom: 10px;
     width: 90%;
   }
 }
-.contactSection .contactInfo a {
+#contactSection .contactInfo a {
   text-decoration: none;
   color: black;
   cursor: pointer;
   font-size: 0.9rem;
   color: white;
 }
-.contactSection .contactInfo a .fab {
+#contactSection .contactInfo a .fab {
   font-size: 2rem;
   padding-bottom: 10px;
   color: #4267b2;
 }
-.contactSection .contactInfo a .fab:hover {
+#contactSection .contactInfo a .fab:hover {
   color: ivory;
 }
-.contactSection .contactInfo h3 {
+#contactSection .contactInfo h3 {
   font-size: 1.6rem;
   padding-bottom: 20px;
   text-decoration: underline white;
   color: white;
 }
-.contactSection .contactInfo h4 {
+#contactSection .contactInfo h4 {
   font-size: 1.2rem;
   font-style: italic;
   padding-bottom: 10px;
