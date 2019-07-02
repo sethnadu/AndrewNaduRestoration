@@ -165,7 +165,7 @@ header .main-words .navLinks .links {
   height: 20px;
   padding: 5px 10px;
   border-radius: 10px;
-  background-color: white;
+  background-color: ivory;
   text-align: center;
   width: 80px;
   margin: 5px;
@@ -267,7 +267,7 @@ header .mobileChange {
     text-decoration: none;
     color: black;
     border: 3px solid black;
-    background-color: white;
+    background-color: ivory;
     border-radius: 10px;
     padding: 5px 10px;
     width: 75px;
@@ -507,7 +507,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: ivory;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   padding: 10px;
