@@ -331,6 +331,7 @@ header .infoMobile .fas {
 }
 .main-section .mainAbout .carousel {
   display: flex;
+  background-color: black;
   justify-content: center;
   overflow: hidden;
   max-width: 900px;
