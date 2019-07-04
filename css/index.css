@@ -730,12 +730,12 @@ footer .number {
   flex-direction: column;
   width: 100%;
   height: 70px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
-@media (max-width: 580px) {
+@media (max-width: 673px) {
   .tabs {
-    height: 180px;
+    height: 210px;
   }
 }
 .tabs .title {
@@ -751,7 +751,7 @@ footer .number {
   align-items: center;
   flex-direction: row;
 }
-@media (max-width: 580px) {
+@media (max-width: 673px) {
   .tabs .topics {
     display: flex;
     justify-content: center;
@@ -774,7 +774,7 @@ footer .number {
   font-weight: bold;
   border-radius: 10px;
 }
-@media (max-width: 580px) {
+@media (max-width: 673px) {
   .tabs .topics .tab {
     margin: 5px;
     width: 100px;
