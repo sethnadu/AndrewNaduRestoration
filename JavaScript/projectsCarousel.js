@@ -55,6 +55,8 @@ let fullRemodelBefore = document.querySelectorAll('.slideshow').forEach(img => n
 let fullRemodelAfter = document.querySelectorAll('.slideshow2').forEach(img => new ProjectsCarousel(img));
 let hallwayBefore = document.querySelectorAll('.slideshow3').forEach(img => new ProjectsCarousel(img));
 let hallwayAfter = document.querySelectorAll('.slideshow4').forEach(img => new ProjectsCarousel(img));
+let kitchenBefore = document.querySelectorAll('.slideshow13').forEach(img => new ProjectsCarousel(img));
+let kitchenAfter = document.querySelectorAll('.slideshow14').forEach(img => new ProjectsCarousel(img));
 let ceilingBefore = document.querySelectorAll('.slideshow5').forEach(img => new ProjectsCarousel(img));
 let ceilingAfter = document.querySelectorAll('.slideshow6').forEach(img => new ProjectsCarousel(img));
 let livingRoomBefore = document.querySelectorAll('.slideshow7').forEach(img => new ProjectsCarousel(img));
