@@ -65,3 +65,23 @@ let bathroomBefore = document.querySelectorAll('.slideshow11').forEach(img => ne
 let bathroomAfter = document.querySelectorAll('.slideshow12').forEach(img => new ProjectsCarousel(img));
 
 
+// Exterior Projects////
+let deckAfter = document.querySelectorAll('.exteriorshow1').forEach(img => new ProjectsCarousel(img));
+let patioBefore = document.querySelectorAll('.exteriorshow2').forEach(img => new ProjectsCarousel(img));
+let patioAfter = document.querySelectorAll('.exteriorshow3').forEach(img => new ProjectsCarousel(img));
+let walkwayAfter = document.querySelectorAll('.exteriorshow4').forEach(img => new ProjectsCarousel(img));
+let chimneyBefore = document.querySelectorAll('.exteriorshow5').forEach(img => new ProjectsCarousel(img));
+let chimneyAfter = document.querySelectorAll('.exteriorshow6').forEach(img => new ProjectsCarousel(img));
+let chimneyAttachedBefore = document.querySelectorAll('.exteriorshow18').forEach(img => new ProjectsCarousel(img));
+let chimneyAttachedAfter = document.querySelectorAll('.exteriorshow19').forEach(img => new ProjectsCarousel(img));
+let stoneWalkwayBefore = document.querySelectorAll('.exteriorshow7').forEach(img => new ProjectsCarousel(img));
+let stoneWalkwayAfter = document.querySelectorAll('.exteriorshow8').forEach(img => new ProjectsCarousel(img));
+let wallBefore = document.querySelectorAll('.exteriorshow9').forEach(img => new ProjectsCarousel(img));
+let wallAfter = document.querySelectorAll('.exteriorshow10').forEach(img => new ProjectsCarousel(img));
+let walkwayStoneBrickAfter = document.querySelectorAll('.exteriorshow11').forEach(img => new ProjectsCarousel(img));
+let stoneWallBefore = document.querySelectorAll('.exteriorshow12').forEach(img => new ProjectsCarousel(img));
+let stoneWallAfter = document.querySelectorAll('.exteriorshow13').forEach(img => new ProjectsCarousel(img));
+let porchBefore = document.querySelectorAll('.exteriorshow14').forEach(img => new ProjectsCarousel(img));
+let porchAfter = document.querySelectorAll('.exteriorshow15').forEach(img => new ProjectsCarousel(img));
+let houseBefore = document.querySelectorAll('.exteriorshow16').forEach(img => new ProjectsCarousel(img));
+let houseAfter = document.querySelectorAll('.exteriorshow17').forEach(img => new ProjectsCarousel(img));
