@@ -65,6 +65,9 @@ let fireplaceBefore = document.querySelectorAll('.slideshow9').forEach(img => ne
 let fireplaceAfter = document.querySelectorAll('.slideshow10').forEach(img => new ProjectsCarousel(img));
 let bathroomBefore = document.querySelectorAll('.slideshow11').forEach(img => new ProjectsCarousel(img));
 let bathroomAfter = document.querySelectorAll('.slideshow12').forEach(img => new ProjectsCarousel(img));
+let masterBathroomBefore = document.querySelectorAll('.slideshow15').forEach(img => new ProjectsCarousel(img));
+let masterBathroomDuring = document.querySelectorAll('.slideshow16').forEach(img => new ProjectsCarousel(img));
+let masterBathroomAfter = document.querySelectorAll('.slideshow17').forEach(img => new ProjectsCarousel(img));
 
 
 // Exterior Projects////
@@ -87,3 +90,7 @@ let porchBefore = document.querySelectorAll('.exteriorshow14').forEach(img => ne
 let porchAfter = document.querySelectorAll('.exteriorshow15').forEach(img => new ProjectsCarousel(img));
 let houseBefore = document.querySelectorAll('.exteriorshow16').forEach(img => new ProjectsCarousel(img));
 let houseAfter = document.querySelectorAll('.exteriorshow17').forEach(img => new ProjectsCarousel(img));
+let brickWallBefore = document.querySelectorAll('.exteriorshow18').forEach(img => new ProjectsCarousel(img));
+let brickWallAfter = document.querySelectorAll('.exteriorshow19').forEach(img => new ProjectsCarousel(img));
+let cementPatioBefore = document.querySelectorAll('.exteriorshow20').forEach(img => new ProjectsCarousel(img));
+let cementPatioAfter = document.querySelectorAll('.exteriorshow21').forEach(img => new ProjectsCarousel(img));
