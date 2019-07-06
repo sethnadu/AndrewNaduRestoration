@@ -77,8 +77,7 @@ let patioAfter = document.querySelectorAll('.exteriorshow3').forEach(img => new 
 let walkwayAfter = document.querySelectorAll('.exteriorshow4').forEach(img => new ProjectsCarousel(img));
 let chimneyBefore = document.querySelectorAll('.exteriorshow5').forEach(img => new ProjectsCarousel(img));
 let chimneyAfter = document.querySelectorAll('.exteriorshow6').forEach(img => new ProjectsCarousel(img));
-let chimneyAttachedBefore = document.querySelectorAll('.exteriorshow18').forEach(img => new ProjectsCarousel(img));
-let chimneyAttachedAfter = document.querySelectorAll('.exteriorshow19').forEach(img => new ProjectsCarousel(img));
+
 let stoneWalkwayBefore = document.querySelectorAll('.exteriorshow7').forEach(img => new ProjectsCarousel(img));
 let stoneWalkwayAfter = document.querySelectorAll('.exteriorshow8').forEach(img => new ProjectsCarousel(img));
 let wallBefore = document.querySelectorAll('.exteriorshow9').forEach(img => new ProjectsCarousel(img));
