@@ -11,19 +11,26 @@
     border-radius: 10px;
     box-shadow: 5px 5px 5px;
     background-color: black;
-    height: 600px;
+    height: 855px;
+    width: 350px;
+    min-width: 350px;
+    overflow: scroll;
+    position: relative;
 
     @media (max-width: 906px) {
       display: none;
     }
     img {
       width: 300px;
-      margin: 10px auto;
+      margin: 10px 20px; 
       border-radius: 5px;
+      
+      
+      
     }
 
     h2 {
-      font-size: 1.6rem;
+      font-size: 1.6rem;  
       text-align: center;
       margin: 10px auto;
       color: white;
@@ -70,11 +77,12 @@
     display: flex;
     flex-direction: column;
     border: 4px solid ivory;
-    height: 100%;
+    height: 500px;
     margin: auto 20px 20px 20px;
     border-radius: 10px;
     background-color: black;
     box-shadow: 5px 5px 10px black;
+    overflow: scroll;
   }
   @media (min-width: 905px) {
     display: none;
@@ -92,6 +100,7 @@
   }
   .reviewImages3 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 10px 20px;
 
@@ -101,46 +110,14 @@
 
     img {
       width: 80%;
-      margin: 0 10px;
+      margin: 20px auto;
       border-radius: 5px;
       
      
     }
   }
 
-  .reviewImages4 {
-    display: flex;
-    justify-content: center;
-    margin: 10px 20px;
-
-    @media (max-width: 700px) {
-      display: none;
-    }
-
-    img {
-      width: 80%;
-      margin: 0 10px;
-      border-radius: 5px;
-     
-    }
-  }
-
-  .reviewImages5 {
-    display: flex;
-    justify-content: center;
-    margin: 10px 20px;
-
-    @media (max-width: 700px) {
-      display: none;
-    }
-
-    img {
-      width: 80%;
-      margin: 0 10px;
-      border-radius: 5px;
-     
-    }
-  }
+  
 }
 
 .reviewMobileClick {

@@ -311,7 +311,11 @@ header .infoMobile .fas {
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
   background-color: black;
-  height: 600px;
+  height: 855px;
+  width: 350px;
+  min-width: 350px;
+  overflow: scroll;
+  position: relative;
 }
 @media (max-width: 906px) {
   .main-section .reviews {
@@ -320,7 +324,7 @@ header .infoMobile .fas {
 }
 .main-section .reviews img {
   width: 300px;
-  margin: 10px auto;
+  margin: 10px 20px;
   border-radius: 5px;
 }
 .main-section .reviews h2 {
@@ -367,11 +371,12 @@ header .infoMobile .fas {
     display: flex;
     flex-direction: column;
     border: 4px solid ivory;
-    height: 100%;
+    height: 500px;
     margin: auto 20px 20px 20px;
     border-radius: 10px;
     background-color: black;
     box-shadow: 5px 5px 10px black;
+    overflow: scroll;
   }
 }
 @media (min-width: 905px) {
@@ -393,6 +398,7 @@ header .infoMobile .fas {
 }
 .reviewsMobile .reviewImages3 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 10px 20px;
 }
@@ -403,37 +409,7 @@ header .infoMobile .fas {
 }
 .reviewsMobile .reviewImages3 img {
   width: 80%;
-  margin: 0 10px;
-  border-radius: 5px;
-}
-.reviewsMobile .reviewImages4 {
-  display: flex;
-  justify-content: center;
-  margin: 10px 20px;
-}
-@media (max-width: 700px) {
-  .reviewsMobile .reviewImages4 {
-    display: none;
-  }
-}
-.reviewsMobile .reviewImages4 img {
-  width: 80%;
-  margin: 0 10px;
-  border-radius: 5px;
-}
-.reviewsMobile .reviewImages5 {
-  display: flex;
-  justify-content: center;
-  margin: 10px 20px;
-}
-@media (max-width: 700px) {
-  .reviewsMobile .reviewImages5 {
-    display: none;
-  }
-}
-.reviewsMobile .reviewImages5 img {
-  width: 80%;
-  margin: 0 10px;
+  margin: 20px auto;
   border-radius: 5px;
 }
 @media (max-width: 699px) {
