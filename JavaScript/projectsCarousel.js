@@ -68,6 +68,8 @@ let bathroomAfter = document.querySelectorAll('.slideshow12').forEach(img => new
 let masterBathroomBefore = document.querySelectorAll('.slideshow15').forEach(img => new ProjectsCarousel(img));
 let masterBathroomDuring = document.querySelectorAll('.slideshow16').forEach(img => new ProjectsCarousel(img));
 let masterBathroomAfter = document.querySelectorAll('.slideshow17').forEach(img => new ProjectsCarousel(img));
+let basementBefore = document.querySelectorAll('.slideshow18').forEach(img => new ProjectsCarousel(img));
+let basementAfter = document.querySelectorAll('.slideshow19').forEach(img => new ProjectsCarousel(img));
 
 
 // Exterior Projects////
